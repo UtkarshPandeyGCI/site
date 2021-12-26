@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Public site for accessing the files from owner  ">
+<meta name="keywords" content="HTML,CSS">
+<meta name="author" content="Utkarsh Pandey">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">h2{ background-color:green;}
+p{text-align: center; font-size: 60px; margin-top: 0px; background-color:red;}
+table,td,th{
+    border:10px solid orange;
+}
+
+</style>
+  <title>Unique Collections</title>
+  <link rel="shortcut icon" type="image/png" href="logo.png">
+</head>
+
+<body bgcolor="black" text="White" alink="yellow" vlink="orange" Leftmargin=20 Topmargin =10 link="green">
+    <basefont face="Californian FB">
+
+    <a name="#top"></a>
+        <h1><u><b><center><u><font color="teal"><br>UNIQUE COLLECTIONS</font></u></center></u></b><br></h1>
+        <marquee bgcolor="" scrollamount=4 behavior"Alternate"><font face="Algerian" color="blue"><b>Designed by~ UTKARSH </b>[GCI Username: UtkarshP]</font></marquee>
+<center>
+        <a href="http://www.facebook.com/Utkarshblogs14"><img src="fbl.png" height="90px"></a>
+        </a>
+        <a href="http://www.google.com"><img src="gl.png" height="90px"></a>
+        <a href="http://www.utkarshblogs14.blogspot.com"><img src="bl.jfif" height="90px"></a>
+</center>
+        <h2><i><b>Instructions:</b></i><br>
+        <ul type="bullets">
+           <font size=4> <li>Has a favicon and title.</li>
+           <li>Has at least 3 CSS rules.</li>
+           <li>Provides links to secondary or external pages.</li>
+           <li>Has at least 3 meta tags.</li>
+           <li>Explicitly declares the character encoding.</li>
+           <li>Has at least 1 image.</li>
+           <li>Has at least 1 table and 1 list.</li>
+           <li>Is accompanied by a minimal robots.txt that blocks access to a dummy page.</li>
+        </ul><hr color="grey"></h2><a href="https://codein.withgoogle.com/dashboard/task-instances/5444218919583744/">For detailed instruction, Click here...</a>
+        <hr color="grey">
+
+Contest will end in
+
+<p id="demo"></p>
+
+   <script>
+// Set the date
+var countDownDate = new Date("Jan 23, 2020 00:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Contest Ended!";
+  }
+}, 1000);
+</script>
+<br>
+<h3>Let's see how a table looks on web page:<br> </h3>
+<center>
+    <table>
+        <!--CSS is also used with table tag-->
+           <tr>
+               <th><u>S.No.</u></th>
+               <th><u>Mentor</u></th>
+               <th><u>Organisation</u></th>
+           </tr>
+           <tr>
+               <td>1</td>
+               <td>Abhik Chakraborty</td>
+               <td>JBoss Community</td>
+           </tr>
+           <tr>
+               <td>2</td>
+               <td>Ruchika Lakhina</td>
+               <td>JBoss Community</td>
+           </tr>
+           <tr>
+               <td>3</td>
+               <td>Asitha Indrajith</td>
+               <td>SCoRe Lab</td>
+           </tr>
+           <tr>
+               <td>4</td>
+               <td>Dilina</td>
+               <td>SCoRe Lab</td>
+           </tr>
+    </table>
+<hr color="red">
+<h3><center><a href="#top">Go to Top ^</a></center></h3>
+
+</body>
+
+</html>
